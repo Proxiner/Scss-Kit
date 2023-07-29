@@ -1,0 +1,70 @@
+# Project Name
+
+This project follows the 7-1 SASS folder structure to organize and maintain SASS files in a modular and scalable manner.
+
+## Folder Structure
+
+The project's SASS folder structure is as follows:
+
+\\ 7-1
+
+1. Base:
+   - `_reset.scss`: Contains CSS reset rules.
+   - `_typography.scss`: Contains basic typography styles.
+   - `_forms.scss`: Contains styling for form elements.
+
+2. Components:
+   - `_buttons.scss`: Contains styles for different types of buttons.
+   - `_cards.scss`: Contains styles for card components.
+   - `_navbar.scss`: Contains styles for the navigation bar.
+
+3. Layout:
+   - `_header.scss`: Contains styles for the website header.
+   - `_footer.scss`: Contains styles for the website footer.
+   - `_grid.scss`: Contains grid system styles for the layout.
+
+4. Pages:
+   - `_home.scss`: Contains specific styles for the home page.
+   - `_about.scss`: Contains specific styles for the about page.
+   - `_contact.scss`: Contains specific styles for the contact page.
+
+5. Themes:
+   - `_theme-light.scss`: Contains styles specific to the light theme.
+   - `_theme-dark.scss`: Contains styles specific to the dark theme.
+   - `_theme-red.scss`: Contains styles specific to the red theme.
+
+6. Abstracts:
+   - `_variables.scss`: Contains variable declarations for colors, spacing, etc.
+   - `_mixins.scss`: Contains reusable mixins for common styling patterns.
+   - `_functions.scss`: Contains custom functions for calculations or transformations.
+
+7. Vendors:
+   - `_bootstrap.scss`: Contains imported Bootstrap CSS or SASS files.
+   - `_animate.scss`: Contains imported Animate.css styles.
+   - `_slider.scss`: Contains imported SASS files for a slider component.
+
+## Usage
+
+To use this project, you can clone the repository and start adding your own SASS styles within the respective folders. Make sure to prefix each SASS file with an underscore (_) to indicate that it is a partial. For example, `_reset.scss` or `_buttons.scss`.
+
+Remember to import all the partials in the main.scss file to generate the final CSS output.
+
+Feel free to customize the folder structure to fit your project's needs. Happy coding!
+
+## main.scss
+
+The main.scss file serves as the entry point for compiling the SASS stylesheets of the project. It acts as a central file that imports all the partials from the different folders within the 7-1 SASS folder structure.
+
+In this file, you will find a series of import statements that import the partials in a specific order to ensure proper cascading of styles and dependencies. By organizing the imports in a logical order, it helps in maintaining a structured and manageable codebase.
+
+It is important to note that the main.scss file itself does not contain any actual styles or CSS rules. Its sole purpose is to import the partials and combine them into a single SASS file, which will then be compiled into the final CSS output.
+
+Make sure to add any global styles or additional imports that are necessary for the project in this file. It is also common practice to include any necessary vendor prefixes or global variables that need to be accessible throughout the project.
+
+Remember to compile the main.scss file to generate the final CSS file that can be linked to your HTML files.
+
+Happy styling!
+
+## Credits
+
+This project structure is based on the 7-1 SASS folder structure, which is widely used and recommended for organizing SASS files in larger projects. `Dont forget to delete this file after reading it :)`

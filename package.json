@@ -1,0 +1,15 @@
+{
+  "name": "scss-kit",
+  "version": "1.0.0",
+  "description": "This project follows the 7-1 SASS folder structure to organize and maintain SASS files in a modular and scalable manner.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.64.1"
+  }
+}
